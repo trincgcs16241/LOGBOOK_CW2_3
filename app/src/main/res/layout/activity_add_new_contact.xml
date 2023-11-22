@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddNewContactActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="25dp"
+        android:paddingBottom="20dp">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add new contact"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            app:fontFamily="@font/black_han_sans" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of contact"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:fontFamily="@font/black_han_sans"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/contactNameEdt"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:hint="Name"
+            android:textSize="17sp"
+            android:fontFamily="@font/black_han_sans"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edit_text_background_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birthday of contact"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:fontFamily="@font/black_han_sans"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/contactDobTv"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:hint="Birthday"
+            android:textSize="17sp"
+            android:fontFamily="@font/black_han_sans"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edit_text_background_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email of contact"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:fontFamily="@font/black_han_sans"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/contactEmailEdt"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:hint="Email"
+            android:textSize="17sp"
+            android:fontFamily="@font/black_han_sans"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edit_text_background_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select avatar"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            app:fontFamily="@font/black_han_sans"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAvatars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textAllCaps="false"
+            android:text="Submit"
+            android:fontFamily="@font/black_han_sans"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+</ScrollView>

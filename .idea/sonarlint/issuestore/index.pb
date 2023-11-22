@@ -1,0 +1,21 @@
+
+z
+Japp/src/main/java/com/example/exercisethreecw2/database/MyAppDatabase.java,2/8/28a950c47548daa9fceb3849f384173c23ebd5d5
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+
+Oapp/src/main/java/com/example/exercisethreecw2/database/model/ContactModel.java,4/3/4335d122e3a9892df6c5e872d1025c505f60ab4a
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+Å
+Qapp/src/main/java/com/example/exercisethreecw2/ui/adapter/ImageAvatarAdapter.java,0/0/0039a9666e16995c7c71bec7130b4848882d0e64
+}
+Mapp/src/main/java/com/example/exercisethreecw2/ui/adapter/ContactAdapter.java,e/5/e5146e8bc5ba0805a849a1bf02477b61bce32ccd
+É
+Sapp/src/main/java/com/example/exercisethreecw2/database/model/ImageAvatarModel.java,6/2/623fe976fb38c3419796ce72df824dce091d7548
+|
+Lapp/src/main/java/com/example/exercisethreecw2/ui/AddNewContactActivity.java,4/d/4d4bbfd6144a40c34f478379fc524626a18148fc
+{
+Kapp/src/main/java/com/example/exercisethreecw2/database/dao/ContactDao.java,2/f/2fb0c6a55f05d71021d847ad291354ce6597e40e
+s
+Capp/src/main/java/com/example/exercisethreecw2/ui/MainActivity.java,1/1/110813a92432cd7c6787de5e9ac7f0073c33da8b

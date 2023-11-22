@@ -1,0 +1,12 @@
+
+t
+java:S1104
+"WMake contactUUID a static final constant or non-public and provide accessors if needed.(’ºÁé8ÜìŞÀ¼1
+y
+java:S1104"WMake contactName a static final constant or non-public and provide accessors if needed.(šŞ‘ˆúÿÿÿÿ8ŸÿßÀ¼1
+x
+java:S1104"VMake contactDob a static final constant or non-public and provide accessors if needed.(ğ‘—Øşÿÿÿÿ8ŸÿßÀ¼1
+z
+java:S1104"XMake contactEmail a static final constant or non-public and provide accessors if needed.(º‡Æ­üÿÿÿÿ8ŸÿßÀ¼1
+{
+java:S1104"YMake contactAvatar a static final constant or non-public and provide accessors if needed.(ğ­»ışÿÿÿÿ8ŸÿßÀ¼1

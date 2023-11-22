@@ -1,0 +1,13 @@
+
+ƒ
+java:S1319"hThe type of "contacts" should be an interface such as "List" rather than the implementation "ArrayList".( —Äœúÿÿÿÿ
+m
+java:S11043"RMake avatar a static final constant or non-public and provide accessors if needed.(±œ™Ôÿÿÿÿÿ
+t
+java:S11044"WMake contactName a static final constant or non-public and provide accessors if needed.(Ñ­¥½8¯Ä´Ã¼1
+s
+java:S11044"VMake contactDob a static final constant or non-public and provide accessors if needed.(Ñ­¥½8¯Ä´Ã¼1
+u
+java:S11044"XMake contactEmail a static final constant or non-public and provide accessors if needed.(Ñ­¥½8¯Ä´Ã¼1
+d
+java:S16594"GDeclare "contactDob" and all following declarations on a separate line.(Ñ­¥½8ÄÄ´Ã¼1
